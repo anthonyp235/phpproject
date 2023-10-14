@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #333;
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;
+}
+main {
+	display: flex;
+	flex-direction: row;
+}
+main section {
+	width: 60%;
+	background-color: rgb(133, 252, 97);
+}
+main aside {
+	width: 40%;
+	background-color: aqua;
+}
+#big_img2{
+	display: block;
+	margin: auto;
+}

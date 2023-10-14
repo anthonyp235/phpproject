@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Home </title>
+		<meta name="author" content="The name of the document’s author to go here" />
+		<meta name="description" content="A concise and accurate summary of the document content is to appear here">
+		<link rel="shortcut icon" href="images/atomo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	</head>
+	<body id="section1">
+		<div class="container" style="margin-left: 240px ;">
+		<header>
+ 			<img src="images/atomo.png" height="75" width="75" alt="HTML" />
+			<h1>Insignia Science</h1>
+			<h2>The most complete website for science lovers</h2>
+
+		</header>
+		<main>
+			<section>
+				<h3>Curious Wonders: Exploring the Marvels of Science</h3>
+				<article>
+					<p>Delve into an engaging world of quirky facts and fascinating phenomena. Our website simplifies complex scientific concepts, sparking curiosity and providing a delightful journey through the wonders of science.</p>
+				</article>
+				<article>
+					<h4>Science Unveiled: Surprising Insights for All</h4>
+					<p>Embark on an eye-opening adventure through our scientific portal. We unravel captivating facts in a digestible manner, making science accessible and enjoyable for everyone, inspiring a lifelong love for discovery.</p>
+				</article>
+				<article>
+					<h4>Discovering Science's Hidden Gems: A Joyful Exploration</h4>
+					<p>Join us in uncovering science's best-kept secrets! Our platform presents science in a delightful, bite-sized format, revealing astonishing facts and sparking excitement for the marvelous world of scientific exploration.</p>
+				</article>
+				<div id="big_img">
+				<img src="images/science.jpg" width="500" height="350" id="big_img2">
+				</div>
+			</section>
+			<aside>
+				<h3>Become a member</h3>
+				<form action="database.php" method="post">
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Email address </label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
+				  </div>
+				<p>Your interests</p>
+				  <div class="form-check">
+					<input class="form-check-input" type="checkbox" value="General Science" id="flexCheckChecked" checked name="interests[]">
+					<label class="form-check-label" for="flexCheckChecked">
+					  General science
+					</label>
+				  </div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="Chemistry" id="flexCheckDefault" name="interests[]">
+					<label class="form-check-label" for="flexCheckDefault">
+					  Chemistry 
+					</label>
+				  </div>
+				  <div class="form-check">
+					<input class="form-check-input" type="checkbox" value="Astronomy" id="flexCheckDefault" name="interests[]">
+					<label class="form-check-label" for="flexCheckDefault">
+					  Astronomy
+					</label>
+				  </div>
+				  <div class="form-check">
+					<input class="form-check-input" type="checkbox" value="Physics" id="flexCheckDefault" name="interests[]">
+					<label class="form-check-label" for="flexCheckDefault">
+					  Physics
+					</label>
+				  </div>
+
+				  
+				  <button type="submit" class="btn btn-success" id="subscribeButton" style="display: flex; justify-content: center; margin: auto;">Subscribe</button>
+				</form>
+				</br>
+				<figure>
+					<img src="images/contact.jpg" width="350" height="240" alt="Image" style="display: flex; justify-content: center; margin: auto;">
+				</figure>
+				<h3>Did You Know…?</h3>
+				
+				<p>"The Universe is a cosmic kitchen, and it's been cooking elements for quite a while. Nearly every atom in your body, except for the most primitive hydrogen, was created in the fiery cores of stars through a process called nuclear fusion. When massive stars exhaust their nuclear fuel, they explode in a spectacular event known as a supernova. These explosions scatter newly formed elements across the cosmos. Over billions of years, these elements come together to form planets, like our Earth, and life as we know it. We are literally made of stardust, a beautiful reminder of our cosmic origins." 🌌✨</p>
+			</aside>
+		</main>
+		<!-- Page-level footer -->
+		<footer>
+			<?php
+		include("includes/footer-nav.php");
+			?>
+			<p><small>© Insignia Science</small></p>
+		</footer>
+	</div>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	</body>
+</html>
