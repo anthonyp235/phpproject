@@ -23,6 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 }
+echo '<br>';
+echo '<img src="images/atomo.png" height="75" width="75" alt="HTML" />';
+echo '<br>';
 $result = $conn->query("SELECT email, interests FROM subscribers");
 if ($result->num_rows > 0) {
     echo "<h2>All our members:</h2>";
@@ -34,7 +37,7 @@ if ($result->num_rows > 0) {
 } else {
     echo "The list is empty";
 }
-
+echo '<br><a href="index.html">Back to Home</a>';
 $conn->close();
 // Here we have the code to display old records
 ?>
